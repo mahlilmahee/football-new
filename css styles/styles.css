@@ -1,0 +1,137 @@
+/* header designs are here 
+ */
+
+
+ /* google fonts link here  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* first section here and its design  */
+.top-design{
+     display: flex;
+     flex-direction: column;
+    
+     align-items: center;
+}
+
+ .top-design{
+      background-color: #2D25A0;
+      height: 677px;
+width: 1440px;
+}
+
+
+.login{
+    height: 44px;
+width: 1160px;
+
+left: 156px;
+top: 42px;
+border-radius: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 156px;
+margin-right: 124px;
+margin-top: 56px;
+
+
+    
+}
+
+ 
+ .top-link{ 
+      text-decoration: none;
+      color:white;
+      
+  }
+ 
+ .nav{
+      display: flex;
+      justify-content: space-evenly;
+      
+      height: 24px;
+      width: 587px;
+      left: 0px;
+      top: 10px;
+      border-radius: 0px;
+      
+ }
+ .button{
+    height: 44px;
+    width: 123px;
+    background: #E02C6D;
+
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+    
+ }
+ /* .top-down{
+ display: flex;
+ justify-content: space-evenly;
+    
+ } */
+ /* .button-live{
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+    background: #E02C6D;
+    
+    s
+ } */
+ .top-down{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+ }
+ .top-heading{
+      /* line-height: 0; */
+      display: flex;
+      flex-direction: column;
+      line-height: 80px;
+      margin-left: 95px;
+ }
+ .heading{
+      font-size: 64px;
+      height: 230px;
+width: 485px;
+font-weight: 700;
+color: white;
+/* left: 156px; */
+/* top: 207px; */
+/* border-radius: nullpx; */
+
+ }
+ .buttondiv{
+       margin-top: -60px;
+ }
+ .button-live{
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+    background-color: rgb(255, 51, 0);
+    
+    
+    
+    
+ }
+
+
+.banner{
+    height: 438px;
+    width: 556px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+   
+    
+ 
