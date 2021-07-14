@@ -6,6 +6,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 
+/* hover effets and other effets */
+
+.top-design:hover{
+       background-color: blueviolet;
+       
+}
+.top-link:hover{
+      color: rgb(2, 38, 59);
+      font-weight: 700;
+      
+       
+}
+.top-heading:hover{
+       
+       transform: rotate(360deg);
+       color: cyan;
+}
+button:hover{
+      transform:scale(1.5,1.5);
+      color: rgb(13, 116, 0);
+      background-color: rgb(255, 240, 240);
+}
+button{
+       transition: .5s ease-in .2s;
+}
+.top-image:hover{
+      transform: scale(1.2,1.1);
+      
+}
+
+.top-image{
+       transition-delay: .1s;
+       transition:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     font-family: 'Poppins', sans-serif;
     
@@ -17,6 +63,8 @@ body{
      flex-direction: column;
     
      align-items: center;
+     
+     transition: 1s linear .1s;
 }
 
  .top-design{
@@ -105,12 +153,18 @@ margin-top: 56px;
       flex-direction: column;
       line-height: 80px;
       margin-left: 95px;
+      transition-duration: 2s;
+transition-delay: .3s;
+
  }
  .heading{
       font-size: 64px;
       height: 230px;
 width: 485px;
 font-weight: 700;
+/* transition-duration: 2s;
+transition-delay: .3s; */
+
 color: white;
 /* left: 156px; */
 /* top: 207px; */
@@ -242,6 +296,76 @@ padding: 10px;
        font-weight: 400;
        font-size: 16px;
  }
+/*\\\\\\\\\\\\\\\
+ extra css and 
+ its css styles
+ \\\\\\\\\\\\\\
+ */
+ .highlights{
+        margin-top: 100px;
+        margin-bottom: 100px;
+ }
+ .highlight{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(93, 97, 89);
+ }
+ .winner1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:10px
+        ;
+
+ }
+ .trophy{
+        color: black;
+ }
+.winteam{
+      width: 370px;
+      height: 480px;
+      padding: 5px;
+      text-align:center;
+      word-wrap: break-word;
+      /* background-color: chartreuse; */
+      border: 1px solid rgb(220, 224, 226);
+      margin: 15px;
+      border-radius: 5px;
+       
+}
+.winner {
+       width: 350px;
+       height: 300px;
+       margin-left: 5px;
+       border-radius: 10px;
+       
+}
+h6{
+       font-size: 20px;
+       font-weight: 600;
+       margin-top: -5px;
+       color: crimson;
+       font-weight: 600;
+}
+
+/* this is gallery side  */  
+.stories{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      width: 100%;
+       
+}
+
+
+
+.goal{
+       width: 97%;
+       height: 350px;
+}
+
+
+
 
  /* 
  =-=--=--=-=-=-=-0=-
