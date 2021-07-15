@@ -466,3 +466,128 @@ width: 283.87103271484375px;
         align-items: center;
         margin-top: 100px;
  }
+
+
+
+ @media only screen and (max-width:688px) {
+        .login{
+                display: none;
+                background-color: blanchedalmond;
+        }
+        .top-design{
+                width: 100%;
+                overflow-x: hidden;
+                background-attachment: fixed;
+                display: flex;
+                flex-direction: row;
+                height: auto;
+               
+        }
+        .top-down{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: flex-start;
+              width: 100%;
+
+               
+        }.heading{
+                font-size: 10px
+                ;
+                height: 60px;
+                width: 360%;
+
+        }
+        .top-heading{
+                margin-left: 12px;
+                width: 15%;
+                height: 130px;
+                background-attachment: fixed;
+        }
+        .banner{
+                width: 30%;
+                height: 50%;
+                margin-left: 0px;
+                display: flex;
+                margin-left: 40px;
+                margin: 0px;}
+                .two{
+                        width: 90%;
+                        height: auto;
+                        font-size: 10px;
+                        
+
+                }
+
+
+
+                /* next section for responsiveness */
+         .players{
+                 display: flex;
+                 flex-direction: column;
+         }
+        .bottom-messi{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                overflow-x: hidden;
+                margin-left: 10px;
+        }
+        .description{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content:flex-start;
+                width: 100%;
+                padding-top: 6px;
+                height: auto;
+        }
+
+        .messi{
+                padding-top: 50px;
+                width: 100%;
+        }
+        .winner1{ 
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+        }
+        .highlight{
+                font-size: 18px;
+                color: rgb(0, 60, 255);
+        }
+        .stories{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                width: 100%;
+        }
+        #image{
+               width: 90%;
+        }
+        .fullbody{
+                width: 100%;
+                overflow-x: hidden;
+                padding: 3px;
+        }
+        .winteam{
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+        }
+        .again{
+                width: 100%;
+                margin-bottom: 0px;
+                padding:3px;
+                font-size: 10px;
+        }
+        .player-identity>p{
+                font-size:13px ;
+                padding: 5px;
+        }
+        .football-player{
+                width: 93%;
+        }
+ }
+
+
+
