@@ -29,7 +29,7 @@ button:hover{
       background-color: rgb(255, 240, 240);}
 
 button{
-       transition: .5s ease-in .2s;
+       transition: .5s ease-in ;
 }
 .top-image:hover{
       transform: scale(1.2,1.1);
@@ -52,8 +52,11 @@ button{
 
 
 
+
 body{
     font-family: 'Poppins', sans-serif;
+    
+    
     
 }
 
@@ -283,6 +286,7 @@ padding: 10px;
        /* padding: 15px; */
        /* padding-bottom: 33px; */
        box-shadow: 10px 10px 10px gray;
+       border-radius: 10px;
        margin: 0px;
         /* border: 2px solid rebeccapurple; */
  }
@@ -667,6 +671,10 @@ width: 283.87103271484375px;
                       display: flex;
                       flex-direction: column;
                       margin-left: -750px;
+              }
+              article{
+                      margin-left: 24px;
+                      border-radius: 10px;
               }
               h2{
                       text-align: center;
