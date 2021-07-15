@@ -467,12 +467,12 @@ width: 283.87103271484375px;
         margin-top: 100px;
  }
 
-
+/* media codes for making the website responsive and makign beautiful */
 
  @media only screen and (max-width:688px) {
         .login{
                 display: none;
-                background-color: blanchedalmond;
+                
         }
         .top-design{
                 width: 100%;
@@ -597,4 +597,167 @@ width: 283.87103271484375px;
        }
 
 
+       /* responsives code for the tablet and extra large mobile phone and so */
+
+       @media only  screen and (min-width:688px) and (max-width:992px) {
+              .login{
+                     display: none;
+                     
+             }
+             .top-design{
+                     width: 100%;
+                     overflow-x: hidden;
+                     background-attachment: fixed;
+                     display: flex;
+                     flex-direction: row;
+                     height: auto;
+                   
+             }
+             .top-down{
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: space-between;
+                   align-items: flex-start;
+                   width: 100%;
+     
+                    
+             }.heading{
+                     font-size: 10px
+                     ;
+                     height: 60px;
+                     width: 360%;
+     
+             }
+             .top-heading{
+                     margin-left: 12px;
+                     width: 15%;
+                     height: 130px;
+                     background-attachment: fixed;
+             }
+             .banner{
+                     width: 87%;
+                     height: 50%;
+                     margin-left: 12px;
+                     display: flex;
+                   
+                     padding-top: 250px;
+                     margin-bottom: 40px;
+                     margin-top: 130px;
+                    
+                     }
+                     .butt{
+                          
+                            padding-left: 20px;
+                            padding-top: 100px;
+                            
+                            
+                     }
+                     .extra{
+                             font-size: 33px;
+                             width:50% ;
+                             margin-left: 150px;
+                     }
+                     .messi-image{
+                             padding: 20px;
+                     }
+     
+     
+                     /* next section for responsiveness */
+              .players{
+                      display: flex;
+                      flex-direction: column;
+                      margin-left: -750px;
+              }
+              h2{
+                      text-align: center;
+              }
+              .copa{
+                      text-align: center;
+                      font-size: 18px;
+                      padding: 15px;
+              }
+             .bottom-messi{
+                     display: flex;
+                     flex-direction: column;
+                     width: 100%;
+                     overflow-x: hidden;
+                     margin-left: 10px;
+             }
+             .description{
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     align-content:flex-start;
+                     width: 100%;
+                     padding-top: 6px;
+                     height: auto;
+             }
+     
+             .messi{
+                     padding-top: 50px;
+                     width: 100%;
+             }
+             .winner1{ 
+                    display: grid;
+                    grid-template-columns: 800px;
+                    row-gap: 100px
+                    ;
+             }
+             .winner{
+                     width: 80%;
+             }
+             .highlight{
+                     font-size: 18px;
+                     color: rgb(0, 60, 255);
+             }
+             .stories{
+                     display: grid;
+                     grid-template-columns: repeat(2,1fr);
+                     width: 100%;
+             }
+             #image{
+                    width: 80%;
+             }
+             .fullbody{
+                     width: 100%;
+                     overflow-x: hidden;
+                     padding: 3px;
+                     display: grid;
+                     grid-template-columns: 300px 300px;
+                     column-gap: 20px;
+             }
+             .winteam{
+                     width: 100%;
+                     margin: 0px;
+                     padding: 0px;
+             }
+             .again{
+                     width: 100%;
+                     margin-bottom: 0px;
+                     padding:3px;
+                     font-size: 25px;
+             }
+             h6{
+                     font-size: 25px;
+                     color: blue;
+             }
+             .player-identity>p{
+                     font-size:13px ;
+                     padding: 5px;
+             }
+             .football-player{
+                     width: 93%;
+             }
+             .heading{
+                   font-size: 58px;
+                   height: 60px;
+                   width: 360%;
+                   line-height: 56px;
+                   padding: 25px;
+             }
+             .space{
+                     margin-bottom: 70px;
+             }
+              
+       }
 
